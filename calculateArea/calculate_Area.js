@@ -7,6 +7,6 @@ function groceryTracker() {
  grocery2 = parseFloat(document.getElementById('grocery2').value);
  grocery3 = parseFloat(document.getElementById('grocery3').value);
 
- let total = grocery1 * grocery2 * grocery3;
+ let total = grocery1 + grocery2 + grocery3;
  document.getElementById('result').innerText = `The area of the rectangle is: ${total}`;
 }
